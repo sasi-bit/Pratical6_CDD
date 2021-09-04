@@ -1,10 +1,8 @@
-public class AddTwoNumbers {
-
-   public static void main(String[] args) {
-        
-      int num1 = 5, num2 = 15, sum;
-      sum = num1 + num2;
-
-      System.out.println("Sum of these numbers: "+sum);
-   }
+public class Sum{
+  public static void main(String[]args){
+    int a = 400;
+    int b = 500;
+    int sum = a+b;
+    System.out.println("The sum of two numbers "+a+" and "+b+" is "+sum);
+  }
 }
